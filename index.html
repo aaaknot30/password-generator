@@ -1,0 +1,25 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&family=Karla:wght@400;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="title1">Generate a</h1>
+            <h1 class="title2">random password</h1>
+            <h3 class="sub--title">Never use an insecure password again.</h3>
+            <div class="btn--group">
+                <button onclick="generatePsswd()" class="btn">Generate passwords</button>
+                <input id="specialCharacters" name="specialCharacters" type="checkbox"><label class="specCharText" for="specialCharacters">Special Characters</label>
+            </div>
+            <hr class="hr"/>
+            <div class="input--group">
+                <input id="psswd1-el" class="input--text" type="text">
+                <input id="psswd2-el" class="input--text" type="text">
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
